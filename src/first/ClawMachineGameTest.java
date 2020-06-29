@@ -12,8 +12,8 @@ public class ClawMachineGameTest {
                                 {4, 2, 4, 4, 2, 0},
                                 {3, 5, 1, 3, 1, 0}},
                         new int[]{1, 5, 3, 5, 1, 2, 1, 4}));
-    } // 4 3 1 1 3 2 3
-    // 0
+    }
+
     public static int solution(int[][] board, int[] moves) {
         Stack<Integer> storageBox = new Stack();
         int count = 0;
