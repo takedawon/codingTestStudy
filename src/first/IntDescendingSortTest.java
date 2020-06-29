@@ -11,7 +11,7 @@ public class IntDescendingSortTest
     public static long solution(long n) {
         String[] number = String.valueOf(n).split("");
         StringBuilder stringBuilder = new StringBuilder();
-
+    // Integer.toString(n).chars().sorted().forEach(c -> res = Character.valueOf((char)c) + res);
         Arrays.sort(number, Comparator.reverseOrder());
 
         for(String str : number) {
